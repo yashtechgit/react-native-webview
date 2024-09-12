@@ -73,7 +73,7 @@ const createOnShouldStartLoadWithRequest = (
 
 const defaultRenderLoading = () => (
   <View style={styles.loadingOrErrorView}>
-    <ActivityIndicator />
+    {/* <ActivityIndicator /> */}
   </View>
 );
 const defaultRenderError = (
